@@ -27,6 +27,11 @@ How to build the toolchain
 
 3.	Download the iPhoneOS3.1.2.sdk.tar.gz and the MacOSX10.5.sdk.tar.gz files.
 	Also download the iPhoneOS_3.1.2.tar.gz file.
+
+	MacOSX10.5.sdk.tar.gz:		http://depositfiles.com/files/8xeo4we2y
+	iPhoneOS3.1.2.sdk.tar.gz:	http://depositfiles.com/files/t0wj7stsm
+	iPhoneOS_3.1.2.tar.gz:		http://depositfiles.com/files/82k4toawd
+
 	Extract the two former to ios-toolchain/sdks, and the latter to files/firmware.
 	(You should now have the ios-toolchain/sdks/iPhoneOS3.1.2.sdk,
 	ios-toolchain/sdks/MacOSX10.5.sdk and ios-toolchain/files/firmware/current directories.)
@@ -44,4 +49,7 @@ How to build the toolchain
 	sudo ./toolchain.sh clean
 
 Enjoy! :-)
+
+(Alternatively, you can download a prebuilt version of the toolchain, without
+headers and libraries: http://depositfiles.com/files/75l4yyz6z)
 
